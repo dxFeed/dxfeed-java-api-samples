@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    implementation(files("libs/dxfeed-api-3.327.jar"))
-    implementation(files("libs/dxlib-3.327.jar"))
-    implementation(files("libs/dxfeed-impl-3.327.jar"))
+    implementation(files("libs/dxfeed-api.jar"))
+    implementation(files("libs/dxlib.jar"))
+    implementation(files("libs/qds.jar"))
 }
