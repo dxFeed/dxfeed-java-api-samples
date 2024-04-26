@@ -7,11 +7,10 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
-    maven(
-        url = "https://dxfeed.jfrog.io/artifactory/maven-open/"
-    )
 }
 
 dependencies {
-    implementation("com.devexperts.qd:qds:3.327")
+    implementation(files("libs/dxfeed-api-3.327.jar"))
+    implementation(files("libs/dxlib-3.327.jar"))
+    implementation(files("libs/dxfeed-impl-3.327.jar"))
 }
