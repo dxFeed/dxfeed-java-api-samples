@@ -13,5 +13,5 @@ repositories {
 }
 
 dependencies {
-    implementation("com.devexperts.qd:qds:3.327")
+    implementation("com.devexperts.qd:qds:3.330")
 }
