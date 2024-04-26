@@ -13,7 +13,7 @@ public class SampleQdEndpoint {
         DXEndpoint dxEndpoint = DXEndpoint.create();
         // For token-based authorization, use the following address format:
         // "demo.dxfeed.com:7300[login=entitle:token]"
-        dxEndpoint.connect("demo.dxfeed.com:7300"); //localhost:6666
+        dxEndpoint.connect("demo.dxfeed.com:7300"); //localhost:7700
         DXFeedSubscription<Quote> subscription = dxEndpoint.getFeed().createSubscription(Quote.class);
         subscription.addEventListener(events -> {
             for (Quote event : events) {
