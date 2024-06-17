@@ -12,20 +12,13 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <auther.version>484</auther.version>
-        <qd.version>3.327</qd.version>
+        <qd.version>3.330</qd.version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>com.devexperts.mdd</groupId>
-            <artifactId>auther-api</artifactId>
-            <version>${auther.version}</version>
-        </dependency>
-        <!-- Add the following dependencies if you want to use DxLink. -->
-        <dependency>
             <groupId>com.devexperts.qd</groupId>
-            <artifactId>dxlink-websocket</artifactId>
+            <artifactId>qds</artifactId>
             <version>${qd.version}</version>
         </dependency>
     </dependencies>
