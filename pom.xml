@@ -32,8 +32,12 @@
 
     <repositories>
         <repository>
-            <id>jfrog</id>
-            <url>https://dxfeed.jfrog.io/artifactory/maven-open/</url>
+            <id>mdd-maven</id>
+            <url>https://repo.devexperts.com/repository/mdd-maven/</url>
+        </repository>
+        <repository>
+            <id>qd-maven</id>
+            <url>https://repo.devexperts.com/repository/qd-maven/</url>
         </repository>
     </repositories>
 </project>
